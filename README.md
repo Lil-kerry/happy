@@ -6,7 +6,19 @@ cd happy-birthday-css-app
 
 ```
 
-2)Execute the below command to run the app {Note: Python3 will be required}
+2) Install less {Note: node will be required}
+```
+npm install -g less
+```
+
+3) Navigate to /happy and run
+```
+lessc cake.less compiled.css
+```
+to generate compiled.css from cake.less
+
+
+4) Execute the below command to run the app {Note: Python3 will be required}
 
 ```
 python -m http.server 8000
